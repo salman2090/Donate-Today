@@ -38,6 +38,11 @@ body {
   margin-top: 80px;
   font-size: 30px;
 }
+.donate-section input {
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
 .donate-section p {
   width: 550px;
   text-align: center;
@@ -100,9 +105,41 @@ hr {
   width: 100%;
 }
 
+.update-section p {
+  text-align: center;
+  width: 300px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.update-form {
+  display: flex;
+  margin: 0 350px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 99, 71, 0.253);
+  padding: 50px;
+}
+#form-input {
+  padding: 10px;
+  border: none;
+  background-color: rgb(248, 239, 239);
+}
+#form-btn {
+  background-color: rgb(247, 76, 46);
+  padding: 10px;
+  border: none;
+  color: white;
+}
+
 footer {
+  margin-top: 100px;
   text-align: center;
   padding: 25px;
   color: white;
   background-color: rgb(2, 2, 22);
+}
+
+#footer-text {
+  color: tomato;
+  font-family: cursive;
 }
