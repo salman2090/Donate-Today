@@ -101,10 +101,34 @@ hr {
 #third-donation-type {
   padding: 30px;
   margin-left: 50px;
-  background-color: rgba(233, 161, 148, 0.993);
+  background-color: rgba(255, 166, 0, 0.178);
   width: 100%;
 }
 
+.feedback-section {
+  padding: 40px;
+  background-color: rgba(211, 211, 211, 0.37);
+  margin-top: 50px;
+  display: flex;
+  text-align: left;
+}
+.feedback {
+  margin-left: 30px;
+}
+
+.feedback-section img {
+  width: 20%;
+}
+#feedback-spliter {
+  margin-left: 30px;
+  border-left: 2px solid rgb(134, 130, 130);
+  height: 255px;
+}
+#feedback-color {
+  padding-top: 20px;
+  color: tomato;
+  font-weight: 700;
+}
 .update-section p {
   text-align: center;
   width: 300px;
